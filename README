@@ -1,0 +1,339 @@
+libbonobo2
+------------------------------------------
+This is the non-GUI part of the GNOME component and compound 
+document system.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  ORBit2-2.14.0-1
+  gawk-3.1.5-1			(for bonobo-slay)
+  glib2-2.8.6-1
+  libpopt0-1.6.4-4
+  libxml2-2.6.22-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.19-4
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  cygport-0.1.90-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  libtool1.5-1.5.20-2
+  make-3.80-1
+  pkg-config-0.20-1
+  sed-4.1.4-1
+
+Canonical website:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/gnome/sources/libbonobo/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libbonobo2-2.14.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libbonobo2-2.14.0-1.cygport all
+
+This will create:
+  /usr/src/libbonobo2-2.14.0-1-src.tar.bz2
+  /usr/src/libbonobo2-2.14.0-1.tar.bz2
+  /usr/src/libbonobo2-devel-2.14.0-1.tar.bz2
+  /usr/src/libbonobo2-doc-2.14.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/bonobo-activation/bonobo-activation-config.xml
+  /usr/bin/activation-client.exe
+  /usr/bin/bonobo-activation-run-query.exe
+  /usr/bin/bonobo-slay
+  /usr/bin/cygbonobo-2-0.dll
+  /usr/bin/cygbonobo-activation-4.dll
+  /usr/bin/echo-client-2.exe
+  /usr/lib/bonobo-2.0/bonobo-activation-server.exe
+  /usr/lib/bonobo-2.0/bonobo-activation-sysconf.exe
+  /usr/lib/bonobo-2.0/samples/bonobo-echo-2.exe
+  /usr/lib/bonobo/monikers/cygmoniker_std_2.dll
+  /usr/lib/bonobo/monikers/libmoniker_std_2.la
+  /usr/lib/bonobo/servers/Bonobo_CosNaming_NamingContext.server
+  /usr/lib/bonobo/servers/Bonobo_Moniker_std.server
+  /usr/lib/bonobo/servers/Bonobo_Sample_Echo.server
+  /usr/lib/orbit-2.0/Bonobo_module.dll
+  /usr/lib/orbit-2.0/Bonobo_module.la
+  /usr/share/doc/Cygwin/libbonobo2-2.14.0.README
+  /usr/share/doc/libbonobo2-2.14.0/AUTHORS
+  /usr/share/doc/libbonobo2-2.14.0/COPYING
+  /usr/share/doc/libbonobo2-2.14.0/COPYING.LIB
+  /usr/share/doc/libbonobo2-2.14.0/ChangeLog
+  /usr/share/doc/libbonobo2-2.14.0/Changes.txt
+  /usr/share/doc/libbonobo2-2.14.0/INSTALL
+  /usr/share/doc/libbonobo2-2.14.0/NEWS
+  /usr/share/doc/libbonobo2-2.14.0/README
+  /usr/share/doc/libbonobo2-2.14.0/TODO
+  /usr/share/locale/am/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ar/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/az/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/be/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/bg/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/bn/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/bs/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ca/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/cs/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/cy/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/da/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/de/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/el/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/en_CA/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/en_GB/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/eo/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/es/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/et/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/eu/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/fa/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/fi/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/fr/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ga/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/gl/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/gu/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/he/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/hi/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/hr/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/hu/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/id/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/is/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/it/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ja/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ko/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ku/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/li/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/lt/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/lv/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/mk/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ml/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/mn/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ms/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/nb/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ne/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/nl/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/nn/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/no/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/pa/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/pl/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/pt/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ro/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ru/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/rw/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/sk/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/sl/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/sq/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/sr/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/sr@Latn/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/sv/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/ta/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/tr/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/uk/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/vi/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/wa/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/xh/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/yi/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/libbonobo-2.0.mo
+  /usr/share/man/man1/bonobo-activation-server.1.gz
+
+Files included in the devel package:
+
+  /usr/include/bonobo-activation-2.0/bonobo-activation/Bonobo_Activation_types.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/Bonobo_GenericFactory.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/Bonobo_Unknown.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation-activate.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation-async.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation-init.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation-register.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation-server-info.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation-shlib.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation-version.h
+  /usr/include/bonobo-activation-2.0/bonobo-activation/bonobo-activation.h
+  /usr/include/libbonobo-2.0/bonobo/Bonobo.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-app-client.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-application.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-arg.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-context.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-event-source.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-exception.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-foreign-object.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-generic-factory.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-i18n.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-item-container.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-item-handler.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-listener.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-macros.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-main.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-moniker-extender.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-moniker-simple.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-moniker-util.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-moniker.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-object.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-persist-client.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-persist-file.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-persist-stream.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-persist.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-property-bag-client.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-property-bag.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-shlib-factory.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-storage-memory.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-storage.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-stream-client.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-stream-memory.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-stream.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-types.h
+  /usr/include/libbonobo-2.0/bonobo/bonobo-xobject.h
+  /usr/include/libbonobo-2.0/libbonobo.h
+  /usr/lib/libbonobo-2.dll.a
+  /usr/lib/libbonobo-2.la
+  /usr/lib/libbonobo-activation.dll.a
+  /usr/lib/libbonobo-activation.la
+  /usr/lib/pkgconfig/bonobo-activation-2.0.pc
+  /usr/lib/pkgconfig/libbonobo-2.0.pc
+  /usr/share/idl/bonobo-2.0/Bonobo.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Application.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Canvas.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Clipboard.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Context.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Control.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Embeddable.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Exception.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Gdk.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_ItemContainer.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Listener.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Moniker.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Persist.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Print.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Property.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Sample_Echo.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Storage.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_UI.idl
+  /usr/share/idl/bonobo-2.0/Bonobo_Zoomable.idl
+  /usr/share/idl/bonobo-activation-2.0/Bonobo_ActivationContext.idl
+  /usr/share/idl/bonobo-activation-2.0/Bonobo_Activation_types.idl
+  /usr/share/idl/bonobo-activation-2.0/Bonobo_GenericFactory.idl
+  /usr/share/idl/bonobo-activation-2.0/Bonobo_ObjectDirectory.idl
+  /usr/share/idl/bonobo-activation-2.0/Bonobo_Unknown.idl
+
+Files included in the doc package:
+
+  /usr/share/gtk-doc/html/bonobo-activation/api-reference.html
+  /usr/share/gtk-doc/html/bonobo-activation/architecture.html
+  /usr/share/gtk-doc/html/bonobo-activation/async-activation.html
+  /usr/share/gtk-doc/html/bonobo-activation/attribute-tag.html
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation-Debugging.html
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation-Initialization.html
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation-Query-and-Activation.html
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation-Registration.html
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation-Utilities.html
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation.devhelp
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation.devhelp2
+  /usr/share/gtk-doc/html/bonobo-activation/bonobo-activation.png
+  /usr/share/gtk-doc/html/bonobo-activation/checklist.html
+  /usr/share/gtk-doc/html/bonobo-activation/configuring.html
+  /usr/share/gtk-doc/html/bonobo-activation/home.png
+  /usr/share/gtk-doc/html/bonobo-activation/index.html
+  /usr/share/gtk-doc/html/bonobo-activation/index.sgml
+  /usr/share/gtk-doc/html/bonobo-activation/left.png
+  /usr/share/gtk-doc/html/bonobo-activation/lgpl.html
+  /usr/share/gtk-doc/html/bonobo-activation/migrating.html
+  /usr/share/gtk-doc/html/bonobo-activation/query-langage.html
+  /usr/share/gtk-doc/html/bonobo-activation/query-syntax.html
+  /usr/share/gtk-doc/html/bonobo-activation/right.png
+  /usr/share/gtk-doc/html/bonobo-activation/server-arch.html
+  /usr/share/gtk-doc/html/bonobo-activation/server-xml-reference.html
+  /usr/share/gtk-doc/html/bonobo-activation/style.css
+  /usr/share/gtk-doc/html/bonobo-activation/terms.html
+  /usr/share/gtk-doc/html/bonobo-activation/tutorial.html
+  /usr/share/gtk-doc/html/bonobo-activation/up.png
+  /usr/share/gtk-doc/html/libbonobo/debugging.html
+  /usr/share/gtk-doc/html/libbonobo/factories.html
+  /usr/share/gtk-doc/html/libbonobo/general.html
+  /usr/share/gtk-doc/html/libbonobo/home.png
+  /usr/share/gtk-doc/html/libbonobo/index.html
+  /usr/share/gtk-doc/html/libbonobo/index.sgml
+  /usr/share/gtk-doc/html/libbonobo/left.png
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-app-client.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-application.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-arg.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-config-database.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-context.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-event-source.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-exception.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-generic-factory.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-i18n.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-item-container.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-item-handler.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-listener.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-main.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-moniker-context.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-moniker-extender.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-moniker-simple.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-moniker-util.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-moniker.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-object.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-persist-client.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-persist-file.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-persist-stream.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-persist.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-property-bag-client.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-property-bag.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-running-context.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-shlib-factory.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-shutdown.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-storage-memory.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-storage.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-stream-client.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-stream-memory.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-bonobo-types.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo-faq.html
+  /usr/share/gtk-doc/html/libbonobo/libbonobo.devhelp
+  /usr/share/gtk-doc/html/libbonobo/libbonobo.devhelp2
+  /usr/share/gtk-doc/html/libbonobo/misc.html
+  /usr/share/gtk-doc/html/libbonobo/monikers-overview.html
+  /usr/share/gtk-doc/html/libbonobo/monikers.html
+  /usr/share/gtk-doc/html/libbonobo/persist-file.png
+  /usr/share/gtk-doc/html/libbonobo/persist-storage.png
+  /usr/share/gtk-doc/html/libbonobo/persist-stream.png
+  /usr/share/gtk-doc/html/libbonobo/persist.html
+  /usr/share/gtk-doc/html/libbonobo/persist.png
+  /usr/share/gtk-doc/html/libbonobo/properties.html
+  /usr/share/gtk-doc/html/libbonobo/property-bags.html
+  /usr/share/gtk-doc/html/libbonobo/refcounting.html
+  /usr/share/gtk-doc/html/libbonobo/right.png
+  /usr/share/gtk-doc/html/libbonobo/running-context.png
+  /usr/share/gtk-doc/html/libbonobo/storage.png
+  /usr/share/gtk-doc/html/libbonobo/stream.png
+  /usr/share/gtk-doc/html/libbonobo/streams.html
+  /usr/share/gtk-doc/html/libbonobo/style.css
+  /usr/share/gtk-doc/html/libbonobo/unknown.png
+  /usr/share/gtk-doc/html/libbonobo/up.png
+
+------------------
+
+Port Notes:
+
+----- version 2.14.0-1 -----
+Version bump for GNOME 2.14.
+
+----- version 2.10.1-1 -----
+Version bump for GNOME 2.10.
+
+----- version 2.8.0-1 -----
+Initial release from the Cygwin distribution.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
