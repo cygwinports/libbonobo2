@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin ORBit2 gawk glib2 libpopt0 libxml2
+requires: cygwin ORBit2 gawk glib2 libxml2
 sdesc: "GNOME component and compound document system (runtime)"
 ldesc: "This is the non-GUI part of the GNOME component and compound
 document system."
