@@ -4,21 +4,21 @@ This is the non-GUI part of the GNOME component and compound
 document system.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  ORBit2-2.14.10-1
+  cygwin-1.5.25-7
+  ORBit2-2.14.11-1
   gawk
-  glib2-2.14.4-1
+  glib2-2.14.5-1
   libintl8-0.15-1
   libxml2-2.6.30-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
+  cygwin-1.5.25-7
   autoconf2.5-2.61-1
   automake1.10-1.10-1
   binutils-20050817-1
   cygport-0.3.7-1
-  gawk-3.1.5-4
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gtk-doc-1.9-1
   libtool1.5-1.5.23a-2
@@ -35,16 +35,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libbonobo2-2.20.3-1-src.tar.bz2
+  unpack libbonobo2-2.20.4-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libbonobo2-2.20.3-1.cygport all
+  cygport ./libbonobo2-2.20.4-1.cygport all
 
 This will create:
-  /usr/src/libbonobo2-2.20.3-1-src.tar.bz2
-  /usr/src/libbonobo2-2.20.3-1.tar.bz2
-  /usr/src/libbonobo2-devel-2.20.3-1.tar.bz2
+  /usr/src/libbonobo2-2.20.4-1-src.tar.bz2
+  /usr/src/libbonobo2-2.20.4-1.tar.bz2
+  /usr/src/libbonobo2-devel-2.20.4-1.tar.bz2
 
 -------------------------------------------
 
@@ -72,17 +72,17 @@ Files included in the binary packages:
   /usr/lib/orbit-2.0/Bonobo_module.dll
   /usr/lib/orbit-2.0/Bonobo_module.la
   /usr/sbin/bonobo-activation-sysconf.exe
-  /usr/share/doc/Cygwin/libbonobo2-2.20.3.README
-  /usr/share/doc/libbonobo2-2.20.3/AUTHORS
-  /usr/share/doc/libbonobo2-2.20.3/COPYING
-  /usr/share/doc/libbonobo2-2.20.3/COPYING.LIB
-  /usr/share/doc/libbonobo2-2.20.3/ChangeLog
-  /usr/share/doc/libbonobo2-2.20.3/Changes.txt
-  /usr/share/doc/libbonobo2-2.20.3/INSTALL
-  /usr/share/doc/libbonobo2-2.20.3/MAINTAINERS
-  /usr/share/doc/libbonobo2-2.20.3/NEWS
-  /usr/share/doc/libbonobo2-2.20.3/README
-  /usr/share/doc/libbonobo2-2.20.3/TODO
+  /usr/share/doc/Cygwin/libbonobo2-2.20.4.README
+  /usr/share/doc/libbonobo2-2.20.4/AUTHORS
+  /usr/share/doc/libbonobo2-2.20.4/COPYING
+  /usr/share/doc/libbonobo2-2.20.4/COPYING.LIB
+  /usr/share/doc/libbonobo2-2.20.4/ChangeLog
+  /usr/share/doc/libbonobo2-2.20.4/Changes.txt
+  /usr/share/doc/libbonobo2-2.20.4/INSTALL
+  /usr/share/doc/libbonobo2-2.20.4/MAINTAINERS
+  /usr/share/doc/libbonobo2-2.20.4/NEWS
+  /usr/share/doc/libbonobo2-2.20.4/README
+  /usr/share/doc/libbonobo2-2.20.4/TODO
   /usr/share/locale/am/LC_MESSAGES/libbonobo-2.0.mo
   /usr/share/locale/ar/LC_MESSAGES/libbonobo-2.0.mo
   /usr/share/locale/az/LC_MESSAGES/libbonobo-2.0.mo
@@ -331,6 +331,9 @@ Files included in the binary packages:
 ------------------
 
 Port Notes:
+
+----- version 2.20.4-1 -----
+Version bump.
 
 ----- version 2.20.3-1 -----
 Version bump.
