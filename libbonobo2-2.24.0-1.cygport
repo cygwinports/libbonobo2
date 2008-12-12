@@ -1,0 +1,20 @@
+ORIG_PN=libbonobo
+
+inherit gnome2
+
+PATCH_URI="2.22-bonobo-slay.patch"
+
+PKG_NAMES="${PN} libbonobo2_0 libbonobo2-devel"
+libbonobo2_CONTENTS="--exclude=*.dll usr/bin/ usr/lib/bonobo-2.0/samples/
+                     usr/lib/bonobo/servers/Bonobo_Sample_Echo.server
+                     usr/sbin/ usr/share/doc/"
+libbonobo2_0_CONTENTS="--exclude=Bonobo_Sample_Echo.server etc/
+                       usr/bin/cygbonobo-2-0.dll usr/bin/cygbonobo-activation-4.dll
+                       usr/lib/bonobo/ usr/lib/orbit-2.0/
+                       usr/share/locale/ usr/share/man/"
+libbonobo2_devel_CONTENTS="usr/include/ usr/lib/lib* usr/lib/pkgconfig/
+                           usr/share/gtk-doc/ usr/share/idl/"
+
+DIFF_EXCLUDES="*.pc"
+
+CYGCONF_ARGS="--libexecdir=/usr/lib/bonobo"

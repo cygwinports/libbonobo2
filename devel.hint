@@ -1,6 +1,0 @@
-category: Gnome
-requires: cygwin libbonobo2 ORBit2-devel glib2-devel gettext
-external-source: libbonobo2
-sdesc: "GNOME component and compound document system (development package)"
-ldesc: "This is the non-GUI part of the GNOME component and compound
-document system."
