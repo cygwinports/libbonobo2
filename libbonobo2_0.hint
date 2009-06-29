@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libdbus-glib_1_2 libdbus1_3 libglib2.0_0 libintl8 libORBit2_0 libxml2
+requires: libdbus-glib_1_2 libdbus1_3 libglib2.0_0 libintl8 libORBit2_0 libxml2
 external-source: libbonobo2
 sdesc: "GNOME component and compound document system (runtime)"
 ldesc: "This is the non-GUI part of the GNOME component and compound

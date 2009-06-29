@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libbonobo2_0 libglib2.0-devel gettext libORBit2-devel
+requires: libbonobo2_0 libglib2.0-devel gettext libORBit2-devel
 external-source: libbonobo2
 sdesc: "GNOME component and compound document system (libdevel)"
 ldesc: "This is the non-GUI part of the GNOME component and compound
