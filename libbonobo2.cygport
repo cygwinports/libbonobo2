@@ -1,6 +1,13 @@
 ORIG_PN=libbonobo
-
 inherit gnome2
+
+NAME="libbonobo2"
+VERSION=2.32.1
+RELEASE=2
+CATEGORY="GNOME"
+SUMMARY="GNOME component and compound document system"
+DESCRIPTION="This is the non-GUI part of the GNOME component and compound
+document system."
 
 PATCH_URI="2.22-bonobo-slay.patch"
 

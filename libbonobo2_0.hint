@@ -1,6 +1,0 @@
-category: Gnome
-requires: libglib2.0_0 libintl8 libORBit2_0 libxml2
-external-source: libbonobo2
-sdesc: "GNOME component and compound document system (runtime)"
-ldesc: "This is the non-GUI part of the GNOME component and compound
-document system."
